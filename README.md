@@ -17,23 +17,31 @@ If you don’t have Yarn installed, you can install it using npm (comes with Nod
 
 Check installation:
 
-```yarn -v``` 
+```bash
+yarn -v
+``` 
 
 ## Installation
 
 1. Clone the repository:  
-```git clone <repository-url>```
+```bash
+git clone <repository-url>
 cd waste-app
+```
 
 2. Install dependencies:  
-```yarn install```  
+```bash
+yarn install
+```  
 
 Tip: 'yarn install' reads the package.json file and installs all required packages automatically.
 
 ## Running the App
 
 Start the development server:  
-```yarn start```  
+```bash
+yarn start
+```  
 
 - The app will run at http://localhost:3000 by default.  
 - Any changes you make to the code will automatically reload the browser.  
@@ -41,7 +49,9 @@ Start the development server:
 ## Building for Production
 
 Create an optimized production build:  
-```yarn build```  
+```bash
+yarn build
+```  
 
 - The build will be in the 'build' folder.  
 - You can serve it using any static server or deploy it to a hosting service.  
@@ -49,22 +59,34 @@ Create an optimized production build:
 ## Common Commands
 
 - Lint the code:  
-```yarn lint```  
+```bash
+yarn lint
+```  
 
 - Run tests:  
-```yarn test```  
+```bash
+yarn test
+```  
 
 - Install a new package:  
-```yarn add <package-name>```  
+```bash
+yarn add <package-name>
+```  
 
 - Remove a package:  
-```yarn remove <package-name>```  
+```bash
+yarn remove <package-name>
+```  
 
 ## Notes for Beginners
 
 - Make sure Node.js and Yarn are installed correctly by running:  
-```node -v```  
-```yarn -v```  
+```bash
+node -v
+```  
+```bash
+yarn -v
+```  
 
 - Always run 'yarn install' after cloning to ensure all dependencies are available.  
 - Use 'yarn start' during development; only use 'yarn build' when you are ready to deploy.  
