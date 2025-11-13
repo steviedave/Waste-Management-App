@@ -35,14 +35,13 @@ function ProducerSignup() {
 
               <div className="buttons">
                 <Link to="/"className='back-button'>Back</Link>
-                <button className='producer-signup-button' type="submit">Get Started</button>
+                {/* <button className='producer-signup-button' type="submit">Get Started</button> */}
+                <Link to = "/producer-dashboard" className='producer-signup-button' type="submit">Get Started</Link>
               </div>
 
               <p>Already have an account? <Link to="/producer-login" style={{color:'#009966', textDecoration:'underline'}}>Login</Link></p>
             </form>
           </div>
-
-
         </div>
       </div>
     </main>

@@ -34,7 +34,8 @@ function ConsumerSignup() {
               
               <div className ="buttons">
               <Link to="/" className='back-button'>Back</Link>
-              <button className='consumer-signup-button' type="submit">Get Started</button>
+              {/* <button className='consumer-signup-button' type="submit">Get Started</button> */}
+              <Link to="/consumer-dashboard" className='consumer-signup-button' type="submit">Get Started</Link>
               </div>
               
               <p>Already have an account? <Link to="/consumer-login" style={{color:'#009966', textDecoration:'underline'}}>Login</Link></p>
