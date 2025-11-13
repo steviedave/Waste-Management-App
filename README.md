@@ -11,7 +11,7 @@ This is a React application. Follow the instructions below to set up and run the
 
 If you don’t have Yarn installed, you can install it using npm (comes with Node.js):
 
-`` ` ``npm install --global yarn`` ` ``
+ ` ``npm install --global yarn`` `
 
 Check installation:
 
