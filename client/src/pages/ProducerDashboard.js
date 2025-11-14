@@ -10,7 +10,7 @@ function ProducerDashboard() {
       <ProducerWelcomeMessage />
       <div className='producer-listings'>
         <div className='listing-blocks'>
-          <div>
+          <div className='icon-box'> 
             <i class="fa-solid fa-cube"></i>
           </div>
           <p>Total Listings</p>
@@ -18,7 +18,7 @@ function ProducerDashboard() {
         </div>
 
         <div className='listing-blocks'>
-          <div>
+          <div className='icon-box'>
             <i class="fa-regular fa-circle-check"></i>
           </div>
           <p>Available</p>
@@ -26,7 +26,7 @@ function ProducerDashboard() {
         </div>
 
         <div className='listing-blocks'>
-          <div>
+          <div className='icon-box'>
             <i class="fa-regular fa-clock"></i>
           </div>
           <p>Pending Pickup</p>
@@ -34,7 +34,7 @@ function ProducerDashboard() {
         </div>
 
         <div className='listing-blocks'>
-          <div>
+          <div className='icon-box'>
             <i class="fa-regular fa-circle-check"></i>
           </div>
           <p>Completed</p>

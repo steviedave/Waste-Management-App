@@ -283,6 +283,15 @@ form input {
   border: 1px solid rgb(200, 200, 200);
   border-radius: 20px;
   padding: 20px;
+  gap: 8px;
+
+}
+
+.icon-box {
+  background-color: green;
+  padding: 10px;
+  border-radius: 6px;
+
 
 }
 
